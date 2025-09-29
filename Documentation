@@ -1,0 +1,39 @@
+Installed Tools
+
+Docker, kubectl, Minikube.
+
+Started Kubernetes Cluster
+
+Ran minikube start → local cluster with 1 node ready.
+
+Deployed an App
+
+Created deployment.yaml → deployed Nginx app with 2 pods.
+
+Verified pods using kubectl get pods.
+
+Exposed the App
+
+Created service.yaml → NodePort service to access app from browser.
+
+Verified service using kubectl get svc.
+
+Scaled Deployment
+
+Used kubectl scale deployment my-nginx --replicas=4 → increased pods to 4.
+
+Checked Pods & Logs
+
+Used kubectl describe pod <pod-name> and kubectl logs <pod-name>.
+
+Screenshots
+
+Took screenshots of pods, service, and pod details for submission.
+
+Key Concepts Learned:
+
+Minikube → run Kubernetes locally.
+
+NodePort service → expose app outside cluster.
+
+kubectl scale → scale app pods up or down.
